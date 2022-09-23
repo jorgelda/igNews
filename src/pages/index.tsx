@@ -25,7 +25,7 @@ const Home: NextPage<IHomeProps> = ({
 
       <main className={styles.contentContainer}>
         <section className={styles.hero}>
-          <span>👋 Hey, welome</span>
+          <span>👋 Hey, welcome</span>
           <h1>
             News about the <span>React</span>{" "}
             world.

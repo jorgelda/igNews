@@ -24,4 +24,13 @@
   svg.closeIcon {
     margin-left: 1rem;
   }
+
+  p {
+    @media (max-width: 500px) {
+      max-width: 80px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
 }
